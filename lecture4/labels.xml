@@ -1,0 +1,91 @@
+	<!-- mapilary labels, see https://research.mapillary.com/img/publications/ICCV17a.pdf  
+   and supplement: https://research.mapillary.com/img/publications/ICCV17a_supp.pdf -->
+<config>
+  <label>
+    <id>0</id>
+    <name>unlabeled</name>
+    <description>all points with no special label.</description>
+    <color>0 0 0</color>
+	<root>unlabeled</root>
+	<macro>unlabeled</macro>
+	<category>unlabeled</category>
+  </label>
+
+	<label>
+    <id>1</id>
+    <name>ground</name>
+    <description>Point cloud representing the ground.</description>
+    <color>255 20 147</color>
+	<root>ground</root>
+	<macro>ground</macro>
+	<category>ground</category>
+  </label>
+	
+  <label>
+		<id>2</id>
+		<name>ceiling</name>
+		<description>Point cloud representing the ceiling.</description>
+		<color>0 191 255</color>
+		<root>ceiling</root>
+		<macro>ceiling</macro>
+		<category>ceiling</category>
+	</label>
+  <label>
+		<id>3</id>
+		<name>wall</name>
+		<description>Point cloud representing the wall.</description>
+		<color>255 215 0</color>
+		<root>wall</root>
+		<macro>wall</macro>
+		<category>wall</category>
+	</label>
+  <label>
+		<id>4</id>
+		<name>door</name>
+		<description>This includes glass doors, classroom doors, and elevators.</description>
+		<color>0 255 0</color>
+		<root>door</root>
+		<macro>door</macro>
+		<category>door</category>
+	</label>
+  <label>
+		<id>5</id>
+		<name>fire cabinet</name>
+		<description>Including fire cabinets and distribution boxes.</description>
+		<color>160 82 45</color>
+		<root>fire cabinet</root>
+		<macro>fire cabinet</macro>
+		<category>fire cabinet</category>
+	</label>
+	
+	<label>
+		<id>6</id>
+		<name>windows</name>
+		<description>Including fire cabinets and distribution boxes.</description>
+		<color>72 193 181</color>
+		<root>windows</root>
+		<macro>windows</macro>
+		<category>windows</category>
+	</label>
+	
+	<label>
+		<id>7</id>
+		<name>hedge</name>
+		<description>Including fire cabinets and distribution boxes.</description>
+		<color>105 105 105</color>
+		<root>hedge</root>
+		<macro>hedge</macro>
+		<category>hedge</category>
+	</label>
+
+	<label>
+		<id>10</id>
+		<name>error</name>
+		<description>error point.</description>
+		<color>255 0 0</color>
+		<root>fire cabinet</root>
+		<macro>fire cabinet</macro>
+		<category>fire cabinet</category>
+	</label>
+
+</config>
