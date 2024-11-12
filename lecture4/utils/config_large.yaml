@@ -1,0 +1,30 @@
+#root_path: "/media/z/Share/study/dataset/remove_ground"
+root_path: "/media/z/Share/study/dataset/interactiveslam/posegraph/semantic/sequences/00"
+
+semantic_add: True
+
+
+color_map:
+  0: [0, 0, 0]  # "black"
+  1: [0, 0, 0]   # "black"
+  2: [245, 230, 100]  # "yellow"
+  3: [0, 0, 139]  # "blue"
+  4: [180, 30, 80]  # "pink"
+  5: [112, 128, 144]   # "gray"
+  6: [0,204,255]       # "bright bule"
+  7: [200, 40, 255]    #  "dark pink"
+  8: [100, 100, 100]
+  9: [30, 24, 234]
+
+learning_map:
+  0 : 0     # "unlabeled"
+  10 : 1     # "other-product"
+  15: 2     # "floor"
+  30: 3     # "wall"
+  40: 4     # "column"
+  50: 5     # "ceiling"
+  80: 6     # "car"
+  99: 7     # "navigation"
+  252: 8
+  254: 9
+

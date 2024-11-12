@@ -1,0 +1,33 @@
+
+#root_path: "/media/z/Share/study/dataset/R1kitti32"
+
+root_path: "/media/z/Share/study/dataset/testdata"
+
+predict_label_path: "/media/z/Share/study/dataset/labelpredict_nae_test2"
+ground_truth_label_path: "/media/z/Share/study/dataset/testdata/labels/01"
+
+
+down_sample_rate: 0 # voxel size
+show_kind: "predict"    #ground_truth/predict
+
+color_map:
+  0: [0, 0, 0]  # "black"
+  1: [255, 20, 147]   # "black"
+  2: [0, 191, 255]  # "yellow"
+  3: [255, 215, 0]  # "blue"
+  4: [0, 255, 0]  # "pink"
+  5: [160, 82, 45]   #
+  6: [105, 105, 105]
+  7: [105, 105, 105]
+  8: [0, 0, 0]
+
+learning_map:
+  10 : 0     # "unlabeled"
+  1 : 1     # "ground"
+  2: 2     # "ceiling"
+  3: 3     # "wall"
+  4: 4     # "door"
+  5: 5     # "fire cabinet"
+  6: 6     # "hedge"
+  7: 7     # "windows"
+  8: 8     #nav

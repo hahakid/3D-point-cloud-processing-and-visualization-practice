@@ -1,0 +1,25 @@
+#root_path: "/media/z/Share/study/dataset/remove_ground"
+root_path: "H:\\study\\dataset\\remove_ground"
+
+semantic_add: True
+down_sample_rate: 0.3
+
+color_map:
+  0: [0, 0, 0]  # "black"
+  1: [0, 0, 0]   # "black"
+  2: [245, 230, 100]  # "yellow"
+  3: [0, 0, 139]  # "blue"
+  4: [180, 30, 80]  # "pink"
+  5: [112, 128, 144]   # "gray"
+  6: [0,204,255]       # "bright bule"
+  7: [200, 40, 255]    #  "dark pink"
+
+learning_map:
+  0 : 0     # "unlabeled"
+  1 : 1     # "other-product"
+  10: 2     # "floor"
+  11: 3     # "wall"
+  12: 4     # "column"
+  13: 5     # "ceiling"
+  21: 6     # "car"
+  22: 7     # "navigation"
